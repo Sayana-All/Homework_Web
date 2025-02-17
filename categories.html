@@ -34,7 +34,7 @@
         <div class="col-2 bg-dark text-white">
             <nav class="navbar flex-column">
                 <div class="container-fluid">
-                    <a class="navbar-brand text-white flex-column" href="#">
+                    <a class="navbar-brand bg-dark text-white flex-column" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
                             <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z"/>
                             <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z"/>
@@ -43,13 +43,13 @@
                     </a>
                 </div>
                 <div>
-                    <nav class="nav nav-pills flex-column w-100">
-                        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="home.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
-                                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
-                            </svg> Главная
+                    <nav class="nav nav-pills flex-column">
+                        <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="home.html">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                           </svg> Главная
                         </a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="categories.html">
+                        <a class="flex-sm-fill text-sm-center nav-link active" href="categories.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette2" viewBox="0 0 16 16">
                                 <path d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 .5.5v5.277l4.147-4.131a.5.5 0 0 1 .707 0l3.535 3.536a.5.5 0 0 1 0 .708L10.261 10H15.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H3a3 3 0 0 1-2.121-.879A3 3 0 0 1 0 13.044m6-.21 7.328-7.3-2.829-2.828L6 7.188zM4.5 13a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0M15 15v-4H9.258l-4.015 4zM0 .5v12.495zm0 12.495V13z"/>
                             </svg> Категории
@@ -87,7 +87,7 @@
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                                     <li><a class="dropdown-item" href="#">Профиль</a></li>
-                                    <li><a class="dropdown-item" href="home.html">Выход</a></li>
+                                    <li><a class="dropdown-item" href="#">Выход</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -96,12 +96,11 @@
             </nav>
         </div>
         <div class="col-10 mt-5">
-            <h1 style="text-align:center;">Главная</h1>
-            <h6 style="text-align:center;" >Вы находитесь на сайте, предназначенном для продажи товара:</h6>
+            <h1 style="text-align:center;">Категория 1</h1>
             <div class="row">
                 <div class="col-1 mt-5"></div>
                 <div class="col-3 mt-5">
-                    <div class="card">
+                    <div class="card mb-3">
                       <div class="card-header text-center">
                         Товар 1
                       </div>
@@ -111,10 +110,20 @@
                         <a href="#" class="btn btn-outline-info w-100">Купить</a>
                       </div>
                     </div>
+                    <div class="card mb-3">
+                      <div class="card-header text-center">
+                        Товар 4
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title text-center">100$</h3>
+                        <p class="card-text">Информация о товаре 4.</p>
+                        <a href="#" class="btn btn-outline-info w-100">Купить</a>
+                      </div>
+                    </div>
                 </div>
                 <div class="col-1 mt-5"></div>
                 <div class="col-3 mt-5">
-                    <div class="card">
+                    <div class="card mb-3">
                       <div class="card-header text-center">
                         Товар 2
                       </div>
@@ -124,16 +133,36 @@
                         <a href="#" class="btn btn-outline-info w-100">Купить</a>
                       </div>
                     </div>
+                    <div class="card mb-3">
+                      <div class="card-header text-center">
+                        Товар 5
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title text-center">100$</h3>
+                        <p class="card-text">Информация о товаре 5.</p>
+                        <a href="#" class="btn btn-outline-info w-100">Купить</a>
+                      </div>
+                    </div>
                 </div>
                 <div class="col-1 mt-5"></div>
                 <div class="col-3 mt-5">
-                    <div class="card">
+                    <div class="card mb-3">
                       <div class="card-header text-center">
                         Товар 3
                       </div>
                       <div class="card-body">
                         <h3 class="card-title text-center">100$</h3>
                         <p class="card-text">Информация о товаре 3.</p>
+                        <a href="#" class="btn btn-outline-info w-100">Купить</a>
+                      </div>
+                    </div>
+                    <div class="card mb-3">
+                      <div class="card-header text-center">
+                        Товар 6
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title text-center">100$</h3>
+                        <p class="card-text">Информация о товаре 6.</p>
                         <a href="#" class="btn btn-outline-info w-100">Купить</a>
                       </div>
                     </div>

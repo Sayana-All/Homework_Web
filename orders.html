@@ -44,7 +44,7 @@
                 </div>
                 <div>
                     <nav class="nav nav-pills flex-column w-100">
-                        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="home.html">
+                        <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="home.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
                                 <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
                             </svg> Главная
@@ -54,7 +54,7 @@
                                 <path d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 .5.5v5.277l4.147-4.131a.5.5 0 0 1 .707 0l3.535 3.536a.5.5 0 0 1 0 .708L10.261 10H15.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H3a3 3 0 0 1-2.121-.879A3 3 0 0 1 0 13.044m6-.21 7.328-7.3-2.829-2.828L6 7.188zM4.5 13a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0M15 15v-4H9.258l-4.015 4zM0 .5v12.495zm0 12.495V13z"/>
                             </svg> Категории
                         </a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="orders.html">
+                        <a class="flex-sm-fill text-sm-center nav-link active" href="orders.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-table" viewBox="0 0 16 16">
                                 <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 2h-4v3h4zm0 4h-4v3h4zm0 4h-4v3h3a1 1 0 0 0 1-1zm-5 3v-3H6v3zm-5 0v-3H1v2a1 1 0 0 0 1 1zm-4-4h4V8H1zm0-4h4V4H1zm5-3v3h4V4zm4 4H6v3h4z"/>
                             </svg> Заказы
@@ -96,46 +96,42 @@
             </nav>
         </div>
         <div class="col-10 mt-5">
-            <h1 style="text-align:center;">Главная</h1>
-            <h6 style="text-align:center;" >Вы находитесь на сайте, предназначенном для продажи товара:</h6>
-            <div class="row">
-                <div class="col-1 mt-5"></div>
-                <div class="col-3 mt-5">
+            <h1 style="text-align:center;">Каталог</h1>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+                <div class="col">
                     <div class="card">
-                      <div class="card-header text-center">
-                        Товар 1
-                      </div>
-                      <div class="card-body">
-                        <h3 class="card-title text-center">100$</h3>
-                        <p class="card-text">Информация о товаре 1.</p>
-                        <a href="#" class="btn btn-outline-info w-100">Купить</a>
-                      </div>
+                        <img src="img/4.svg" class="card-img-top" alt="..." width="200" height="180">
+                        <div class="card-body">
+                            <h5 class="card-title">iphone</h5>
+                            <p class="card-text">apple iphone самый новый последний такого не у кого нет.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-1 mt-5"></div>
-                <div class="col-3 mt-5">
+                <div class="col">
                     <div class="card">
-                      <div class="card-header text-center">
-                        Товар 2
-                      </div>
-                      <div class="card-body">
-                        <h3 class="card-title text-center">100$</h3>
-                        <p class="card-text">Информация о товаре 2.</p>
-                        <a href="#" class="btn btn-outline-info w-100">Купить</a>
-                      </div>
+                        <img src="img/3.svg" class="card-img-top" alt="..." width="200" height="180">
+                        <div class="card-body">
+                            <h5 class="card-title">Android</h5>
+                            <p class="card-text"> самый новый самый современный андроид, такой только у Майкл Джексена .</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-1 mt-5"></div>
-                <div class="col-3 mt-5">
+                <div class="col">
                     <div class="card">
-                      <div class="card-header text-center">
-                        Товар 3
-                      </div>
-                      <div class="card-body">
-                        <h3 class="card-title text-center">100$</h3>
-                        <p class="card-text">Информация о товаре 3.</p>
-                        <a href="#" class="btn btn-outline-info w-100">Купить</a>
-                      </div>
+                        <img src="img/2.svg" class="card-img-top" alt="..." width="200" height="180">
+                        <div class="card-body">
+                            <h5 class="card-title">Компьютер</h5>
+                            <p class="card-text">Самый мощный компьютер в мире, мощней придумать не возможно.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/1.svg" class="card-img-top" alt="..." width="200" height="180">
+                        <div class="card-body">
+                            <h5 class="card-title">Игровая приставка</h5>
+                            <p class="card-text">Самые интересные и захватывающие игры только на нашей приставке.</p>
+                        </div>
                     </div>
                 </div>
             </div>
