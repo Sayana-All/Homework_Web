@@ -7,6 +7,7 @@ serverPort = 8080
 
 class MyServer(BaseHTTPRequestHandler):
     """Класс для обработки входящих запросов от пользователей"""
+
     def do_GET(self):
         if self.path == "/":
             self.send_response(200)
@@ -20,6 +21,7 @@ class MyServer(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    # Проверка работоспособности сервера
     webServer = HTTPServer((hostName, serverPort), MyServer)
     print("Начало работы сервера http://%s:%s" % (hostName, serverPort))
 
